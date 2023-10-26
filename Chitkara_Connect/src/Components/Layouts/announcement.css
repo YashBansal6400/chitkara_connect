@@ -1,0 +1,39 @@
+/* CSS for Announcement Section */
+.announcement-section {
+    background-color: #f3f3f3; /* Set a background color for the section */
+    padding: 20px;
+  }
+  
+  /* CSS for Individual Announcements */
+  .announcement {
+    background-color:#F1DEFD;
+    color:black; /* Set text color to white */
+    border-radius: 5px; /* Add rounded corners for a card-like look */
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  }
+  
+  /* Add hover effect for announcements */
+  .announcement:hover {
+    background-color: #2980b9; /* Slightly darker background on hover */
+    transform: scale(1.02); /* Slight zoom-in effect on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition on hover */
+  }
+  
+  /* Customize the text inside announcements */
+  .announcement h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .announcement p {
+    margin: 10px 0;
+  }
+  
+  /* Add some spacing between announcements */
+  .announcement + .announcement {
+    margin-top: 15px;
+  }
+  
